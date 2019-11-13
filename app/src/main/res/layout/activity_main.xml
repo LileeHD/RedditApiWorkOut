@@ -7,16 +7,24 @@
     android:padding="8dp"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="25dp"
+        android:text="@string/login" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edit_text"/>
     <Button
-        android:id="@+id/btnGetData"
+        android:id="@+id/btnFetchFeed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="25dp"
-        android:text="Get Data" />
+        android:text="@string/fetch_feed" />
+
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

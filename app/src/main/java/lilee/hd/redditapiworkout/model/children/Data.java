@@ -6,32 +6,32 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 
 public class Data {
-    @SerializedName("author_fullname")
+    @SerializedName("subreddit")
     @Expose
-    private String author_fullname;
+    private String subreddit;
 
-    @SerializedName("thumbnail")
+    @SerializedName("ups")
     @Expose
-    private String thumbnail;
+    private int ups;
 
     @SerializedName("title")
     @Expose
     private String title;
 
-    public String getAuthor_fullname() {
-        return author_fullname;
+    public String getSubreddit() {
+        return subreddit;
     }
 
-    public void setAuthor_fullname(String author_fullname) {
-        this.author_fullname = author_fullname;
+    public void setSubreddit(String subreddit) {
+        this.subreddit = subreddit;
     }
 
-    public String getThumbnail() {
-        return thumbnail;
+    public int getUps() {
+        return ups;
     }
 
-    public void setThumbnail(String thumbnail) {
-        this.thumbnail = thumbnail;
+    public void setUps(int ups) {
+        this.ups = ups;
     }
 
     public String getTitle() {
@@ -45,8 +45,8 @@ public class Data {
     @Override
     public String toString() {
         return "Data{" +
-                "subreddit=" + author_fullname +
-                ", thumbnail='" + thumbnail + '\'' +
+                "subreddit=" + subreddit +
+                ", ups='" + ups + '\'' +
                 ", title='" + title + '\'' +
                 '}';
     }
