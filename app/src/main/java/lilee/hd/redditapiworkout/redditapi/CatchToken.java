@@ -51,23 +51,6 @@ public class CatchToken {
                     })
                     .addNetworkInterceptor(new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
                     .build();
-//            final Request request = new Request.Builder()
-//                    .addHeader("User-Agent", "Sample App")
-//                    .addHeader("Authorization", encodedAuthString)
-//                    .url(ACCESS_TOKEN_URL)
-//                    .build();
-//            client.networkInterceptors().add(new Interceptor() {
-//                @NotNull
-//                @Override
-//                public okhttp3.Response intercept(@NotNull Chain chain) throws IOException {
-//                    return chain.proceed(
-//                            chain.request()
-//                            .newBuilder()
-//                            .addHeader("Authorization", encodedAuthString)
-//                            .build()
-//                    );
-//                }
-//            });
 
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL)
