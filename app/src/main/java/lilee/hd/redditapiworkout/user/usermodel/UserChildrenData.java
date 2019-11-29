@@ -20,10 +20,6 @@ public class UserChildrenData {
     @Expose
     private int ups;
 
-    @SerializedName("downs")
-    @Expose
-    private int downs;
-
     public String getSubreddit() {
         return subreddit;
     }
@@ -56,14 +52,6 @@ public class UserChildrenData {
         this.ups = ups;
     }
 
-    public int getDowns() {
-        return downs;
-    }
-
-    public void setDowns(int downs) {
-        this.downs = downs;
-    }
-
     @Override
     public String toString() {
         return "UserChildrenData{" +
@@ -71,7 +59,6 @@ public class UserChildrenData {
                 ", body='" + body + '\'' +
                 ", link_url='" + link_url + '\'' +
                 ", ups=" + ups +
-                ", downs=" + downs +
                 '}';
     }
 }

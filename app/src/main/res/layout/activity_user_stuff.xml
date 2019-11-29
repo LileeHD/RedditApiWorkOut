@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp"
-    tools:context=".MainActivity">
+    tools:context=".UserStuffActivity">
 
-    <Button
-        android:id="@+id/btnLogin"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="25dp"
-        android:text="@string/login" />
+        android:id="@+id/log_msg"
+        android:padding="25dp"
+        android:text="@string/you_are_logged"
+        android:textAlignment="center"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -49,29 +50,5 @@
         android:padding="25dp"
         android:hint="@string/scope"
         android:textAlignment="center"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edit_text"/>
-    <Button
-        android:id="@+id/btnFetchFeed"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="25dp"
-        android:text="@string/fetch_feed" />
-
-
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/text_result"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black" />
-    </androidx.core.widget.NestedScrollView>
-
 
 </LinearLayout>

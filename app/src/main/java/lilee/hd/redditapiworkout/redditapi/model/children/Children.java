@@ -1,9 +1,10 @@
-package lilee.hd.redditapiworkout.model;
+package lilee.hd.redditapiworkout.redditapi.model.children;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Feed {
+public class Children {
+
     @SerializedName("kind")
     @Expose
     private String kind;
@@ -30,9 +31,9 @@ public class Feed {
 
     @Override
     public String toString() {
-        return "Feed{" +
+        return "Children{" +
                 "kind='" + kind + '\'' +
-                ", data=" + data +
+                ", data='" + data + '\'' +
                 '}';
     }
 }

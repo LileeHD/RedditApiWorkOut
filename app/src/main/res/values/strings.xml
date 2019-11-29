@@ -3,4 +3,10 @@
     <string name="hello_world">Hello world !</string>
     <string name="fetch_feed">Fetch feed</string>
     <string name="login">Login</string>
+    <string name="you_are_logged">YOU ARE LOGGED</string>
+    <string name="token">TOKEN</string>
+    <string name="refresh_token">REFRESH TOKEN</string>
+    <string name="token_type">TOKEN TYPE</string>
+    <string name="expire_in">EXPIRE IN</string>
+    <string name="scope">SCOPE</string>
 </resources>

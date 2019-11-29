@@ -3,7 +3,7 @@ package lilee.hd.redditapiworkout.user;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import lilee.hd.redditapiworkout.model.Data;
+import lilee.hd.redditapiworkout.redditapi.model.Data;
 
 public class User {
     @SerializedName("kind")

@@ -5,7 +5,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 
-import lilee.hd.redditapiworkout.model.children.Children;
 import lilee.hd.redditapiworkout.user.usermodel.UserChildren;
 
 public class UserData {

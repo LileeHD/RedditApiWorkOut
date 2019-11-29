@@ -1,11 +1,11 @@
-package lilee.hd.redditapiworkout.model;
+package lilee.hd.redditapiworkout.redditapi.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 
-import lilee.hd.redditapiworkout.model.children.Children;
+import lilee.hd.redditapiworkout.redditapi.model.children.Children;
 
 public class Data {
 

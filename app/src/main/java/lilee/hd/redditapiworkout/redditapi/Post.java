@@ -1,4 +1,4 @@
-package lilee.hd.redditapiworkout;
+package lilee.hd.redditapiworkout.redditapi;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
