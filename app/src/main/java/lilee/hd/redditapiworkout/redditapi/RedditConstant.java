@@ -33,7 +33,7 @@ public class RedditConstant {
      * Everything else
      */
     public static final String CLIENT_ID_KEY = "client_id";
-    public static final String CLIENT_ID = "C1bC4X4KjSHM9w";
+    public static final String CLIENT_ID = "";
     public static final String CLIENT_SECRET = " ";
     public static final String RESPONSE_TYPE_KEY = "response_type";
     public static final String RESPONSE_TYPE = "code";
